@@ -32,3 +32,37 @@ California Housing Dataset from Scikit-learn.
 
 ## Learning Outcome
 This project demonstrates the mathematical implementation of Multiple Linear Regression and optimization techniques used in Machine Learning.
+
+
+# Logistic Regression from Scratch using SGD
+
+This project implements Binary Logistic Regression from scratch using NumPy and Stochastic Gradient Descent (SGD). The implementation includes sigmoid activation, log loss computation, gradient updates, weight optimization, prediction probability calculation, and model convergence visualization.
+
+The project also compares the custom implementation with Scikit-learn's SGDClassifier for performance evaluation.
+
+## Features
+- Logistic Regression from scratch
+- Stochastic Gradient Descent (SGD)
+- Sigmoid Activation Function
+- Log Loss Function
+- Gradient Computation
+- Weight & Bias Updates
+- Model Convergence Visualization
+- Comparison with Scikit-learn SGDClassifier
+
+## Technologies Used
+- Python
+- NumPy
+- Matplotlib
+- Scikit-learn
+- tqdm
+
+## Dataset
+Synthetic classification dataset generated using `make_classification()` from Scikit-learn.
+
+## Evaluation Metrics
+- Accuracy
+- Log Loss
+
+## Learning Outcome
+This project demonstrates the mathematical implementation of Logistic Regression and optimization techniques used in Machine Learning.
